@@ -7,6 +7,7 @@ html {
 }
 
 :root {
+    --primary-background-color: #FFFCF4;
     --primary-color: #5F5B53;
     --primary-color-2: #171100;
 }
@@ -51,7 +52,7 @@ a {
     position: sticky;
     top: -30px;
     padding-top: 30px;
-    background: #FFFCF4;
+    background: var(--primary-background-color);
     z-index: 1;
 }
 
@@ -86,4 +87,48 @@ a {
     width: 144px;
     padding: 11px 41px;
     font-size: 1.4rem;
+}
+
+/* Hero Wrap */
+.hero-wrap {
+    height: calc(100vh - 104px);
+    background: var(--primary-background-color);
+}
+
+.hero {
+    display: flex;
+}
+
+.hero .images,
+.hero .info {
+    width: 50%;
+}
+
+.hero .images {
+    position: relative;
+}
+
+.hero .images .img {
+    width: 370px;
+    height: calc();
+    object-fit: cover;
+}
+
+.hero .images-info {
+    position: absolute;
+    top: 543px;
+    right: -100px;
+    bottom: 48px;
+    background-color: #FFF;
+}
+
+.hero .images .row {
+    display: flex;
+    align-items: center;
+}
+
+.hero .images .icon {
+    background: #FFF9E8;
+    border-radius: 50%;
+    margin-right: 16px;
 }
