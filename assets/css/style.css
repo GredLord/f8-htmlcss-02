@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --primary-color: #5F5B53;
+    --primary-color-2: #171100;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+/* Common */
+.content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    height: 50px;
+    min-width: 118px;
+    border-radius: 24.5px;
+    background: var(--primary-color-2);
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* CSS  */
+.header {
+    position: sticky;
+    top: -30px;
+    padding-top: 30px;
+    background: #FFFCF4;
+    z-index: 1;
+}
+
+.header .nav {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.header .nav ul {
+    display: flex;
+    margin-left: auto;
+    margin-right: 70px;
+}
+
+
+.nav li:first-child a {
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: var(--primary-color-2);
+    padding: 8px 20px;
+}
+
+.nav li:not(:first-child) a {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    padding: 8px 20px;
+}
+
+.nav .action-link {
+    width: 144px;
+    padding: 11px 41px;
+    font-size: 1.4rem;
+}
