@@ -348,6 +348,7 @@ a {
 .about-courses .item .img {
     display: block;
     max-width: 100%;
+    object-fit: cover;
     border-radius: 12px 12px 0px 0px;
 }
 
@@ -388,3 +389,87 @@ a {
     background: #FFB900;
     opacity: .8;
 }
+
+/* Comment */
+.comment {
+    background: #2E2100;
+}
+
+.comment .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px 0;
+}
+
+.comment .body .item {
+    min-width: 159px;
+}
+
+.comment .item .img {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 999px;
+}
+
+.comment .item .name {
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #F7F7F7;
+    margin-top: 18px;
+}
+
+.comment .item .class {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #BFBCB3;
+    margin-top: 4px;
+}
+
+.comment .slider {
+    display: flex;
+    justify-content: flex-start;
+    gap: 6px;
+    margin-top: 28px;
+}
+
+.comment .slider .next {
+    width: 6px;
+    height: 6px;
+    background: #634700;
+    border-radius: 50%;
+}
+
+.comment .slider .next:nth-child(2) {
+    background: #FFB900;
+}
+
+.comment .about {
+    margin-left: 271px;
+    position: relative;
+}
+
+.comment .about .quote {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 28px;
+    color: #634700;
+    font-size: 11.4rem;
+}
+
+.comment .about .words {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 1.54;
+    color: #FFFFFF;
+    padding: 28px 0 0 30px;
+}
+
+/* Reviews */
