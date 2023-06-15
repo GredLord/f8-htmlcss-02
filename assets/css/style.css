@@ -99,17 +99,20 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: calc(100vh - 104px);
     background: var(--primary-background-color);
+    padding: 64px 0 64px;
 }
 
 .hero {
     display: flex;
 }
 
-.hero .images,
+.hero .images {
+    width: 48%;
+}
+
 .hero .info {
-    width: 50%;
+    width: 52%;
 }
 
 .hero .images {
@@ -118,7 +121,7 @@ a {
 
 .hero .images .img {
     display: block;
-    width: 470px;
+    max-width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
@@ -126,7 +129,6 @@ a {
 
 .hero .images-info {
     position: absolute;
-    top: 405px;
     right: 0;
     bottom: 48px;
     max-width: 270px;
@@ -255,3 +257,6 @@ a {
     font-size: 4.4rem;
     color: var(--primary-color-2);
 }
+
+/* Courses */
+.courses .row {}
