@@ -259,4 +259,49 @@ a {
 }
 
 /* Courses */
-.courses .row {}
+.courses .popular {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.popular .details {
+    max-width: 458px;
+}
+
+.popular .details .heading {
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+    color: var(--primary-color-2)
+}
+
+.popular .details .desc {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: var(--primary-color);
+    margin-top: 16px;
+}
+
+.popular .next .arrow {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #FFB900;
+    border-radius: 50%;
+}
+
+.popular .next .arrow-left {
+    color: #FFB900;
+}
+
+.popular .next .arrow-right {
+    color: #FFF;
+    background: #FFB900;
+}
