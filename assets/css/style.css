@@ -665,3 +665,9 @@ a {
 .blog .slider .next:nth-child(2) {
     background: var(--primary-color-3);
 }
+
+/* Footer */
+.footer {
+    background: #2E2100;
+    height: 100vh;
+}
