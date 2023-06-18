@@ -36,13 +36,13 @@ a {
 
 .btn {
     display: inline-block;
-    height: 50px;
-    min-width: 118px;
+    height: 5rem;
+    min-width: 11.8rem;
     border-radius: 24.5px;
     background: var(--primary-color-2);
     font-weight: 600;
     font-size: 1.6rem;
-    line-height: 50px;
+    line-height: 5rem;
     text-align: center;
     color: #FFFFFF;
 }
@@ -472,3 +472,74 @@ a {
 }
 
 /* Reviews */
+.reviews .body {
+    margin: 200px 0;
+}
+
+.reviews .reviews-info {
+    display: flex;
+    margin: 200px 0;
+}
+
+.reviews-info .block-info,
+.reviews-info .block-img {
+    width: 50%;
+}
+
+.reviews .upside-reviews .icon {
+    display: inline-block;
+    width: 27rem;
+    height: 40.5rem;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.upside-reviews .icon:first-child {
+    margin-right: 3rem;
+    transform: translateY(34px);
+}
+
+.upside-reviews .block-info {
+    padding: 58px 0 0 115px;
+}
+
+.reviews-info .sub-heading {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+    color: var(--primary-color-2);
+}
+
+.reviews-info .sub-desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: var(--primary-color);
+    margin-top: 1.6rem;
+}
+
+.upside-reviews .lesson {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: var(--primary-color);
+    margin-top: 16px;
+}
+
+.reviews-info .action-link {
+    width: 13.7rem;
+    background: #FFB900;
+    margin-top: 3.2rem;
+}
+
+.downside-reviews .block-img .icon {
+    display: block;
+    margin-left: 11.5rem;
+    width: 47rem;
+    height: 44rem;
+    object-fit: cover;
+    border-radius: 20px;
+}
